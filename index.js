@@ -1,6 +1,6 @@
 // Code your solutions in this file
 function writeCards(arrayOfNames, eventName) {
-    arrayOfMessages = [];
+    const arrayOfMessages = [];
     for (let i = 0; i < arrayOfNames.length; i++) {
         debugger;
         arrayOfMessages.push(`Thank you, ${arrayOfNames[i]}, for the wonderful ${eventName} gift!`);
@@ -8,7 +8,6 @@ function writeCards(arrayOfNames, eventName) {
     return arrayOfMessages;
 }
 
-console.log(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise"));
 
 
 function countDown(number) {
@@ -18,5 +17,3 @@ function countDown(number) {
     }
 
 }
-
-countDown(10);
